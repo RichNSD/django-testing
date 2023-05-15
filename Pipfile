@@ -8,6 +8,7 @@ channels = "==4.0.0"
 channels-redis = "==4.1.0"
 redis = "*"
 django = "==4.1.7"
+psycopg2-binary = "*"
 
 [dev-packages]
 appmap = "*"
