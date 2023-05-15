@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+channels = "==4.0.0"
+channels-redis = "==4.1.0"
+redis = "*"
+django = "==4.1.7"
+
+[dev-packages]
+appmap = "*"
+
+[requires]
+python_version = "3.11"
